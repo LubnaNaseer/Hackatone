@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 7px 10px;
+    position: sticky;
+    color: black;
+}
+.logo{
+    margin-right: 20px;
+    /* font-size: 24px; */
+}
+#menu-toggle{
+    display: none;
+}
+.menu-icon{
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+    /* color: ; */
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+     gap: 40px; 
+     
+}
+.nav-links li{
+   margin-left: 30px;
+   /* color: black; */
+}
+.nav-links  a{
+    text-decoration: none;
+    color: black;
+}
+.nav-links   button{
+    padding: 6px 10px;
+    width: 130px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    color: #f5f8f5 ;
+    /* color: white; */
+    background-color: #1deb1d;
+    cursor: pointer;
+}
+.Home{
+  position: relative;
+  width:210vh;
+  /* border: 1Px solid; */
+  height: 500px;
+  margin-top: 20px; 
+  display: flex; 
+}
+.Home img{
+     position: absolute; 
+    left:100vh ;
+}
+.Home h1{
+    position: absolute;
+    left: 10vh;
+    top: 35vh;
+}
+.Home p{
+    position: absolute;
+    left: 10vh;
+    top: 45vh;
+}
+.Home button{
+    position: absolute;
+    left: 10vh;
+    top: 50vh;
+    color: white;
+    width: 10%;
+    height: 30px;
+    background-color: #1deb1d;
+    border-radius: 5px;
+}
+#servies{
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    position: relative;
+    height: 100px;
+}
+#servies h2{
+    position: absolute;
+    top: 20px;
+    color: #191b19;
+}
+#servies p{
+    position: absolute;
+    top: 70px;
+}
+.picture{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid; */
+    gap: 90px;
+    height: 300px;
+}
+.picture img{
+    height: 50px;
+}
+.picture h2{
+    position: absolute;
+    top: 10vh;
+}
+.picture p{
+    position: absolute;
+    top: 20vh;
+    text-align: center;
+}
+
